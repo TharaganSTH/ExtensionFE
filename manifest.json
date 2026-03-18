@@ -3,7 +3,8 @@
     "name": "Disease Synonym Finder",
     "version": "1.0",
     "description": "Detect disease names on a webpage and show synonyms with descriptions.",
-    "permissions": ["activeTab", "scripting",  "storage"],
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["http://127.0.0.1:8000/*"],
 
     "background": {
       "service_worker": "background.js"
